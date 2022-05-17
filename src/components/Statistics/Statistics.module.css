@@ -27,6 +27,7 @@
     padding: 20px;
     color:rgb(71, 62, 62);
     background-color: aliceblue;
+    border-top:1px solid rgb(99, 109, 109);
     border-right: 1px solid rgb(99, 109, 109);
 }
 .item:last-child{

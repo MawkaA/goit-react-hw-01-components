@@ -2,6 +2,8 @@ import Profile from './Profile/Profile';
 import user from '../data/user.json';
 import Statistics from './Statistics/Statistics';
 import data from '../data/data.json';
+import FriendList from './FriendList/FriendList';
+import friends from '../data/friends.json';
 
 export const App = () => {
   return (
@@ -18,6 +20,9 @@ export const App = () => {
     <div style={{padding:"50px"}}> <span style={{marginLeft: "30px",color:"red",fontSize:"40px"}}>Task 2</span>
         <Statistics  title="Upload stats" stats={data} />
         <Statistics  stats={data} />
+    </div>
+    <div style={{padding:"50px"}}><span style={{marginLeft: "30px",color:"red", fontSize:"40px"}}>Task 3</span>
+        <FriendList friends={friends} />
     </div>
     
 </>

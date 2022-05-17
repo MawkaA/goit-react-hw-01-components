@@ -1,0 +1,34 @@
+.item{
+    width:300px;
+    height:70px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px;
+    border: 1px solid rgb(97, 61, 61);
+    box-shadow: 3px 3px 6px  0px rgba(0,0,0,0.75);
+}
+.status{
+    display: block;
+    width:15px;
+    height:15px;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+.status_true{
+    composes:status;
+    background-color: greenyellow;
+}
+
+.status_false{
+    composes:status;
+    background-color: red;
+}
+
+.avatar{
+    border-radius: 20%;
+    border: 1px solid rgb(162, 149, 149);
+    margin-right: 30px;
+}
