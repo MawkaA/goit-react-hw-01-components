@@ -57,5 +57,5 @@ Profile.prototype={
             views:PropTypes.number,
             likes:PropTypes.number,
         }
-    ),
+    ).isRequired,
 }
